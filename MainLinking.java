@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class SimpleCamera extends AppCompatActivity {
+public class MainLinking extends AppCompatActivity {
     EditText ed1,ed2;
     Button btn;
     DatabaseHelper myDB;
@@ -24,7 +24,7 @@ public class SimpleCamera extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_camera);
+        setContentView(R.layout.mainlinking);
         myDB = new DatabaseHelper(this);
         btn=(Button)findViewById(R.id.btn);
         ed1=(EditText)findViewById(R.id.name);
