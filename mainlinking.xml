@@ -1,0 +1,34 @@
+  <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/rlo"
+        android:background="#bfffbf"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_form"
+            android:hint="Enter Username"
+            android:id="@+id/name"
+            android:maxLength="15"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_form"
+            android:hint="Enter Phone number "
+            android:id="@+id/phone"
+            android:layout_below="@+id/name"
+            android:inputType="number"
+            android:maxLength="10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"/>
+
+       <Button
+        android:layout_width="280dp"
+            android:layout_height="wrap_content"
+             android:id="@+id/btn" />
+
+    </RelativeLayout>
